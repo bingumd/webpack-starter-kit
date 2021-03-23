@@ -1,0 +1,3 @@
+.vscode
+**/fixtures/**/*.md
+src/views

@@ -14,11 +14,12 @@ import { paths } from '../store'
 
 const data = `${paths.views}/data/data.js`
 
+// prettier-ignore
 export default () => fs.readdirSync(`${paths.views}`, {
     withFileTypes: true,
 })
 .filter(dirent => dirent.isFile())
-.map(dirent => new HtmlWebpackPlugin({
+.map( dirent => new HtmlWebpackPlugin({
     filename: dirent.name,
     template: `${paths.views}/${dirent.name}`,
     inject: 'body',

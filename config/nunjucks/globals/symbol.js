@@ -10,7 +10,7 @@
  */
 
 module.exports = symbol => {
-	return `<svg class="c-symbol c-symbol--${symbol}">
+    return `<svg class="c-symbol c-symbol--${symbol}">
 		<use xlink:href="assets/images/symbol.svg#icon-${symbol}"/>
 	</svg>`
 }

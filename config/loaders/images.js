@@ -11,7 +11,7 @@
 
 export default {
     test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
-	loader: 'file-loader',
+    loader: 'file-loader',
     options: {
         name: '[name].[ext]',
         outputPath: 'assets/images',

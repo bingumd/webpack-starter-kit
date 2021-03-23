@@ -5,20 +5,22 @@ import * as loaders from './loaders'
 export default {
     entry,
     output,
+    // prettier-ignore
     module: {
         rules: [
             loaders.scripts,
             loaders.nunjucks,
             loaders.styles,
             loaders.images,
-            loaders.fonts,
+            loaders.fonts
         ],
     },
+    // prettier-ignore
     plugins: [
         plugins.MiniCssExtract,
         plugins.Copy,
         plugins.SVGSpritemap,
-        ...plugins.HtmlPages(),
+        ...plugins.HtmlPages()
     ],
     optimization,
     resolve,

@@ -12,15 +12,12 @@
 import SVGSpritemapPlugin from 'svg-spritemap-webpack-plugin'
 import { paths } from '../store'
 
-export default new SVGSpritemapPlugin(`${paths.public}/svg/**/*.svg`,  {
+export default new SVGSpritemapPlugin(`${paths.public}/svg/**/*.svg`, {
     output: {
         filename: 'assets/images/symbol.svg',
-			svgo: {
-				plugins: [
-					{ removeTitle: true },
-					{ removeStyleElement: true },
-				],
-			},
+        svgo: {
+            plugins: [{ removeTitle: true }, { removeStyleElement: true }],
+        },
     },
     sprite: {
         prefix: 'icon-',

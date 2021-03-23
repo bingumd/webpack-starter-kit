@@ -1,8 +1,8 @@
-// Import dependencies.
+// Import dependencies
 import { devServer } from './options'
 import FriendlyErrorsPlugin from 'friendly-errors-webpack-plugin'
 
-// Export development config.
+// Export development config
 export default {
     devServer,
     mode: 'development',

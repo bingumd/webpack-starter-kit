@@ -11,9 +11,9 @@ import { paths } from '../store'
 
 export default {
     alias: {
-        '@'        : `${paths.scripts}`,
-        '@styles'  : `${paths.styles}`,
-        '../fonts' : `${paths.public}/fonts`,
+        '@': `${paths.scripts}`,
+        '@styles': `${paths.styles}`,
+        '../fonts': `${paths.public}/fonts`,
         '../images': `${paths.public}/images`,
     },
 }
