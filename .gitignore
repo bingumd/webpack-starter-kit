@@ -1,0 +1,26 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Editors config
+.settings
+.project
+.vscode
+.idea
+
+# Node.js
+node_modules
+yarn-debug.log*
+yarn-error.log*
+
+# Output directory
+dist
+
+# Windows
+Thumbs.db
+
+# Mac OS X
+.DS_Store
+._.*
+._*
+
+# Misc
+*.zip

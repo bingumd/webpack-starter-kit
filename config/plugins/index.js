@@ -1,0 +1,5 @@
+export Clean from './Clean'
+export Copy from './Copy'
+export HtmlPages from './HtmlPages'
+export MiniCssExtract from './MiniCssExtract'
+export SVGSpritemap from './SVGSpritemap'
