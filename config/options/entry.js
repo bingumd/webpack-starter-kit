@@ -9,6 +9,6 @@
 
 import { paths } from '../store'
 
-export default {
+export const entry = {
     app: `${paths.scripts}/app.js`,
 }

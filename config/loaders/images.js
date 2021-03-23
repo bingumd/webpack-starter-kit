@@ -9,7 +9,7 @@
  * @since 0.1.0
  */
 
-export default {
+export const images = {
     test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
     loader: 'file-loader',
     options: {

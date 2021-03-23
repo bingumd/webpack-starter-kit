@@ -5,12 +5,8 @@
  *
  * @author bingumd <bingumd@gmail.com>
  * @since 0.1.0
- *
- * ! @note Using ES modules syntax is not yet possible.
  */
 
-const path = require('path')
+import { resolve } from 'path'
 
-module.exports = {
-    symbol: path.resolve(__dirname, './symbol.js'),
-}
+export const symbol = resolve(__dirname, './symbol.js')

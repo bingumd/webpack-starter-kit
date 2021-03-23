@@ -8,7 +8,7 @@
  * @since 0.1.0
  */
 
-export default {
+export const scripts = {
     test: /\.js$/,
     exclude: /node_modules/,
     use: ['babel-loader'],

@@ -8,13 +8,12 @@ module.exports = {
     semi: false,
     overrides: [
         {
-            files: ['package.json', 'package-lock.json', '*.md'],
+            files: ['package.json', 'babel.config.json'],
             options: {
                 printWidth: 80,
                 singleQuote: false,
                 tabWidth: 2,
                 trailingComma: 'none',
-                useTabs: false,
             },
         },
     ],

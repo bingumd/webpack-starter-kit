@@ -9,7 +9,7 @@
 
 import { paths } from '../store'
 
-export default {
+export const nunjucks = {
     test: /\.(html|njk)$/,
     use: [
         {

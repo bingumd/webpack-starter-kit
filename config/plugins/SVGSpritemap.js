@@ -12,7 +12,7 @@
 import SVGSpritemapPlugin from 'svg-spritemap-webpack-plugin'
 import { paths } from '../store'
 
-export default new SVGSpritemapPlugin(`${paths.public}/svg/**/*.svg`, {
+export const SVGSpritemap = new SVGSpritemapPlugin(`${paths.public}/svg/**/*.svg`, {
     output: {
         filename: 'assets/images/symbol.svg',
         svgo: {

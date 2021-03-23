@@ -9,7 +9,7 @@
 
 import MiniCssExtractPlugin from 'mini-css-extract-plugin'
 
-export default new MiniCssExtractPlugin({
+export const MiniCssExtract = new MiniCssExtractPlugin({
     filename: 'assets/css/[name].css',
     chunkFilename: 'assets/css/[name].css',
 })

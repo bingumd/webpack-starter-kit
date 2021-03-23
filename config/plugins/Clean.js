@@ -9,4 +9,4 @@
 
 import { CleanWebpackPlugin } from 'clean-webpack-plugin'
 
-export default new CleanWebpackPlugin()
+export const Clean = new CleanWebpackPlugin()

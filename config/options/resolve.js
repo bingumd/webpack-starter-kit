@@ -9,7 +9,7 @@
 
 import { paths } from '../store'
 
-export default {
+export const resolve = {
     alias: {
         '@': `${paths.scripts}`,
         '@styles': `${paths.styles}`,

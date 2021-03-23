@@ -9,7 +9,7 @@
  * @since 0.1.0
  */
 
-export default {
+export const fonts = {
     test: /\.(woff(2)?|eot|ttf|otf|)$/,
     loader: 'file-loader',
     options: {

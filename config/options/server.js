@@ -9,7 +9,7 @@
 
 import isWindows from 'is-windows'
 
-export default {
+export const devServer = {
     host: process.env.HOST || (isWindows ? '127.0.0.1' : '0.0.0.0'),
     port: process.env.PORT || 8080,
     open: true,

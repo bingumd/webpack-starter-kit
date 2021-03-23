@@ -15,7 +15,7 @@ import { paths } from '../store'
 const data = `${paths.views}/data/data.js`
 
 // prettier-ignore
-export default () => fs.readdirSync(`${paths.views}`, {
+export const HtmlPages = () => fs.readdirSync(`${paths.views}`, {
     withFileTypes: true,
 })
 .filter(dirent => dirent.isFile())

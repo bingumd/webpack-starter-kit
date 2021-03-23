@@ -7,7 +7,7 @@
  * @since 0.1.0
  */
 
-export default {
+export const optimization = {
     splitChunks: {
         cacheGroups: {
             default: false,

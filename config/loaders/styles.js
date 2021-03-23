@@ -12,7 +12,7 @@
 
 import MiniCssExtractPlugin from 'mini-css-extract-plugin'
 
-export default {
+export const styles = {
     test: /\.(sa|sc|c)ss$/,
     use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader', 'sass-loader'],
 }

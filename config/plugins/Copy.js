@@ -11,7 +11,7 @@
 import CopyPlugin from 'copy-webpack-plugin'
 import { paths } from '../store'
 
-export default new CopyPlugin({
+export const Copy = new CopyPlugin({
     patterns: [
         {
             from: `${paths.public}/images`,

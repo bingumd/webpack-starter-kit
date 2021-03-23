@@ -9,7 +9,7 @@
 
 import { paths } from '../store'
 
-export default {
+export const output = {
     path: paths.dist,
     filename: 'assets/js/[name].js',
     chunkFilename: 'assets/js/[name].js',
