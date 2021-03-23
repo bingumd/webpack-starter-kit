@@ -1,6 +1,6 @@
 {
   "name": "webpack-starter-kit",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Webpack 5 starter kit",
   "keywords": [
     "webpack",
@@ -16,6 +16,7 @@
     "dev": "cross-env NODE_ENV=development webpack --watch",
     "prod": "cross-env NODE_ENV=production webpack",
     "lint": "stylelint \"**/*.scss\"",
+    "lint:fix": "stylelint \"**/*.scss\" --fix",
     "update": "yarn upgrade-interactive --latest"
   },
   "browserslist": {
@@ -34,7 +35,7 @@
     "@babel/plugin-proposal-export-default-from": "^7.12.13",
     "@babel/preset-env": "~7.13.12",
     "@babel/register": "~7.13.8",
-    "@bingumd/stylelint-config": "^0.10.0",
+    "@bingumd/stylelint-config": "^0.11.0",
     "autoprefixer": "^10.2.5",
     "babel-loader": "~8.2.2",
     "clean-webpack-plugin": "~3.0.0",

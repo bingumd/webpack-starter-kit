@@ -874,10 +874,10 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@bingumd/stylelint-config@^0.10.0":
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/@bingumd/stylelint-config/-/stylelint-config-0.10.0.tgz#121ff2aef366770e655684064069c1440c02862b"
-  integrity sha512-KyuvYCxumTH7p2YXEkgPHtB/e6S66uNq0qP6ALUamism+g44OdNttmCz0Jq3AuI64zxdfwddz4dx6X+QlqOSvg==
+"@bingumd/stylelint-config@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@bingumd/stylelint-config/-/stylelint-config-0.11.0.tgz#a83f8b102891cd9657e4970c15b0907e79809cf2"
+  integrity sha512-+MPsJip3MRKNEl6yGeirc9Mo+Q5MG1/M2Mg+ctD/Puan7uhIAVT5tNXPMKDgFSIDQxwkO8eE5q9uaaaWGg35/Q==
   dependencies:
     stylelint-config-standard "^21.0.0"
     stylelint-scss "^3.19.0"
