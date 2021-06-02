@@ -1,6 +1,6 @@
 /**
- * A webpack plugin to simplifies creation of HTML files
- * to serve your webpack bundles.
+ * A webpack plugin to simplifies creation of HTML
+ * files to serve your webpack bundles
  *
  * @see https://webpack.js.org/plugins/html-webpack-plugin/
  *
@@ -12,16 +12,13 @@ import fs from 'fs'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
 import { paths } from '../store'
 
-const data = `${paths.views}/data/data.js`
-
-// prettier-ignore
-export const HtmlPages = () => fs.readdirSync(`${paths.views}`, {
+export const HtmlPages = () => fs
+.readdirSync(paths.views, {
     withFileTypes: true,
 })
 .filter(dirent => dirent.isFile())
-.map( dirent => new HtmlWebpackPlugin({
-    filename: dirent.name,
-    template: `${paths.views}/${dirent.name}`,
+.map(({ name }) => new HtmlWebpackPlugin({
+    filename: name,
+    template: `${paths.views}/${name}`,
     inject: 'body',
-    templateParameters: fs.existsSync(data) && require(data),
 }))

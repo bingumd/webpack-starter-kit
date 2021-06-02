@@ -1,5 +1,5 @@
 /**
- * These options change how modules are resolved.
+ * These options change how modules are resolved
  *
  * @see https://webpack.js.org/configuration/resolve
  *
@@ -12,8 +12,6 @@ import { paths } from '../store'
 export const resolve = {
     alias: {
         '@': `${paths.scripts}`,
-        '@styles': `${paths.styles}`,
-        '../fonts': `${paths.public}/fonts`,
-        '../images': `${paths.public}/images`,
+        'public': `${paths.public}`,
     },
 }

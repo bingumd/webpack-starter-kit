@@ -1,5 +1,5 @@
 /**
- * Spin up a server for quick development.
+ * Spin up a server for quick development
  *
  * @see https://webpack.js.org/configuration/dev-server
  *
@@ -7,10 +7,9 @@
  * @since 0.1.0
  */
 
-import isWindows from 'is-windows'
-
 export const devServer = {
-    host: process.env.HOST || (isWindows ? '127.0.0.1' : '0.0.0.0'),
+    host: process.env.HOST || 'localhost',
     port: process.env.PORT || 8080,
-    open: true,
+    open: process.env.OPEN || true,
+    watchContentBase: true,
 }

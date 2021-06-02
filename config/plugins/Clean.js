@@ -1,5 +1,5 @@
 /**
- * A webpack plugin to remove/clean your build folder(s).
+ * A webpack plugin to remove/clean your build folder(s)
  *
  * @see https://github.com/johnagan/clean-webpack-plugin
  *

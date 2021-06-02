@@ -1,5 +1,5 @@
 /**
- * This Webpack loader compiles Nunjucks templates.
+ * This Webpack loader compiles Nunjucks templates
  *
  * @see https://github.com/ogonkov/nunjucks-loader#globals
  *

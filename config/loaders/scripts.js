@@ -1,6 +1,6 @@
 /**
  * This package allows transpiling JavaScript
- * files using Babel and webpack.
+ * files using Babel and webpack
  *
  * @see https://github.com/babel/babel-loader
  *

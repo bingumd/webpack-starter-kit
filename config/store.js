@@ -9,10 +9,10 @@ export const cwd = process.cwd()
 
 // Get the project paths
 export const paths = {
-    src: path.resolve(cwd, 'src'),
-    dist: path.resolve(cwd, 'dist'),
+    src    : path.resolve(cwd, 'src'),
+    dist   : path.resolve(cwd, 'dist'),
     scripts: path.resolve(cwd, 'src/scripts'),
-    styles: path.resolve(cwd, 'src/styles'),
-    views: path.resolve(cwd, 'src/views'),
-    public: path.resolve(cwd, 'src/public'),
+    styles : path.resolve(cwd, 'src/styles'),
+    views  : path.resolve(cwd, 'src/views'),
+    public : path.resolve(cwd, 'src/public'),
 }

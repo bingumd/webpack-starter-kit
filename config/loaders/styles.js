@@ -1,5 +1,5 @@
 /**
- * Loads a Sass/SCSS file and compiles it to CSS.
+ * Loads a Sass/SCSS file and compiles it to CSS
  *
  * @see https://webpack.js.org/plugins/mini-css-extract-plugin
  * @see https://webpack.js.org/loaders/css-loader
@@ -11,8 +11,14 @@
  */
 
 import MiniCssExtractPlugin from 'mini-css-extract-plugin'
+import { isDev } from '../store'
 
 export const styles = {
     test: /\.(sa|sc|c)ss$/,
-    use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader', 'sass-loader'],
+    use: [
+        isDev ? 'style-loader' : MiniCssExtractPlugin.loader,
+        'css-loader',
+        'postcss-loader',
+        'sass-loader',
+    ],
 }

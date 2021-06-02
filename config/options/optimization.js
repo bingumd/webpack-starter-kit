@@ -1,5 +1,5 @@
 /**
- * Optimization files.
+ * Optimization files
  *
  * @see https://webpack.js.org/configuration/optimization
  *

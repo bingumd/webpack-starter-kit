@@ -1,6 +1,6 @@
 /**
  * Copies individual files or entire directories,
- * hich already exist, to the build directory.
+ * hich already exist, to the build directory
  *
  * @see https://webpack.js.org/plugins/copy-webpack-plugin/
  *
@@ -22,6 +22,6 @@ export const Copy = new CopyPlugin({
             from: `${paths.public}/upload`,
             to: 'upload',
             noErrorOnMissing: true,
-        },
+        }
     ],
 })

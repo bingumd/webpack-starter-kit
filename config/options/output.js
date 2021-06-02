@@ -1,5 +1,5 @@
 /**
- * Where webpack outputs the assets and bundles.
+ * Where webpack outputs the assets and bundles
  *
  * @see https://webpack.js.org/concepts/output
  *

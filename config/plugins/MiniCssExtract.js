@@ -1,5 +1,5 @@
 /**
- * This plugin extracts CSS into separate files.
+ * This plugin extracts CSS into separate files
  *
  * @see https://webpack.js.org/plugins/mini-css-extract-plugin/
  *

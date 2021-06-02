@@ -1,5 +1,5 @@
 import TerserJSPlugin from 'terser-webpack-plugin'
-import * as plugins from './plugins'
+import { Clean } from './plugins'
 
 export default {
     mode: 'production',
@@ -7,7 +7,7 @@ export default {
         minimize: true,
         minimizer: [new TerserJSPlugin({})],
     },
-    plugins: [plugins.Clean],
+    plugins: [Clean],
     performance: {
         hints: false,
         maxEntrypointSize: 512000,

@@ -1,5 +1,5 @@
 /**
- * Where webpack looks to start building the bundle.
+ * Where webpack looks to start building the bundle
  *
  * @see https://webpack.js.org/concepts/entry-points
  *
@@ -10,5 +10,5 @@
 import { paths } from '../store'
 
 export const entry = {
-    app: `${paths.scripts}/app.js`,
+    main: `${paths.scripts}/main.js`,
 }
